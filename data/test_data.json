@@ -1,0 +1,14 @@
+[
+    {
+        "input": "What is the capital of France?",
+        "response": "The capital of France is Paris."
+    },
+    {
+        "input": "Who wrote 'Pride and Prejudice'?",
+        "response": "Jane Austen wrote 'Pride and Prejudice'."
+    },
+    {
+        "input": "What is the square root of 64?",
+        "response": "The square root of 64 is 8."
+    }
+]
