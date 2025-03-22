@@ -1,0 +1,12 @@
+
+    Comparison of microsoft/DialoGPT-medium and gpt2:
+    
+    Metric              microsoft/DialoGPT-medium     gpt2
+    ----------------------------------------------------------
+    BLEU Score          0.1578          0.0978
+    METEOR Score        0.6024          0.4765
+    ROUGE-1 Score       0.8059          0.2543
+    ROUGE-L Score       0.7027          0.2543
+    Distinct-2 Score    0.8750          0.5294
+    Self-BLEU Score     0.0000          0.0000
+    

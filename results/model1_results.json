@@ -1,4 +1,5 @@
 {
+    "model_name": "microsoft/DialoGPT-medium",
     "avg_bleu": 0.1577559606941261,
     "avg_meteor": 0.6023897707231041,
     "avg_rouge1": 0.8059163059163059,

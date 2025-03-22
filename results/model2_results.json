@@ -1,0 +1,38 @@
+{
+    "model_name": "gpt2",
+    "avg_bleu": 0.09775730215656146,
+    "avg_meteor": 0.4764644416739454,
+    "avg_rouge1": 0.25429856426223835,
+    "avg_rougeL": 0.25429856426223835,
+    "distinct_2": 0.5294117647058824,
+    "self_bleu": 1.2432734507982815e-78,
+    "samples": [
+        {
+            "input": "What is the capital of France?",
+            "reference": "The capital of France is Paris.",
+            "generated": "What is the capital of France?\n\nThe capital of France is Paris.\n\nThe capital of France is Paris.\n\nThe capital of France is Paris.\n\nThe capital of France is Paris.\n\nThe capital of France is",
+            "bleu": 0.13009868453084908,
+            "meteor": 0.66167290886392,
+            "rouge1": 0.2926829268292683,
+            "rougeL": 0.2926829268292683
+        },
+        {
+            "input": "Who wrote 'Pride and Prejudice'?",
+            "reference": "Jane Austen wrote 'Pride and Prejudice'.",
+            "generated": "Who wrote 'Pride and Prejudice'?\n\n\"I'm not sure what to make of this. I think it's a bit of a stretch to say that it's a bit of a stretch to say that it's a bit of",
+            "bleu": 0.024804188095684146,
+            "meteor": 0.32356532356532364,
+            "rouge1": 0.1702127659574468,
+            "rougeL": 0.1702127659574468
+        },
+        {
+            "input": "What is the square root of 64?",
+            "reference": "The square root of 64 is 8.",
+            "generated": "What is the square root of 64?\n\nThe square root of 64 is the number of digits in the hexadecimal string.\n\nThe hexadecimal string is the number of digits in the hexadecimal string.\n",
+            "bleu": 0.1383690338431511,
+            "meteor": 0.44415509259259267,
+            "rouge1": 0.30000000000000004,
+            "rougeL": 0.30000000000000004
+        }
+    ]
+}
