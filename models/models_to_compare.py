@@ -1,4 +1,4 @@
 MODELS_TO_COMPARE = [
-    "microsoft/DialoGPT-medium",  # Model 1
-    "gpt2"                        # Model 2
+    "microsoft/DialoGPT-large",  # Model 1
+    "microsoft/DialoGPT-medium"                        # Model 2
 ]

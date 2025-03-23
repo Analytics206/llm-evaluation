@@ -1,27 +1,27 @@
 {
-    "model_name": "microsoft/DialoGPT-medium",
-    "avg_bleu": 0.1577559606941261,
-    "avg_meteor": 0.6023897707231041,
-    "avg_rouge1": 0.8059163059163059,
-    "avg_rougeL": 0.7027417027417027,
+    "model_name": "microsoft/DialoGPT-large",
+    "avg_bleu": 0.15881828579275759,
+    "avg_meteor": 0.6405448309421634,
+    "avg_rouge1": 0.8358308358308357,
+    "avg_rougeL": 0.7369297369297368,
     "distinct_2": 0.875,
-    "self_bleu": 3.867265372383494e-78,
+    "self_bleu": 3.5971829134979824e-78,
     "samples": [
         {
             "input": "What is the capital of France?",
             "reference": "The capital of France is Paris.",
-            "generated": "What is the capital of France?",
-            "bleu": 0.09554427922043669,
-            "meteor": 0.625,
-            "rouge1": 0.8333333333333334,
-            "rougeL": 0.6666666666666666
+            "generated": "What is the capital of France? Paris.",
+            "bleu": 0.08307018474412793,
+            "meteor": 0.7311475409836065,
+            "rouge1": 0.923076923076923,
+            "rougeL": 0.7692307692307692
         },
         {
             "input": "Who wrote 'Pride and Prejudice'?",
             "reference": "Jane Austen wrote 'Pride and Prejudice'.",
-            "generated": "Who wrote 'Pride and Prejudice'? '?",
-            "bleu": 0.20205155046766235,
-            "meteor": 0.49074074074074076,
+            "generated": "Who wrote 'Pride and Prejudice'?.",
+            "bleu": 0.21771262023986562,
+            "meteor": 0.4990583804143125,
             "rouge1": 0.7272727272727272,
             "rougeL": 0.7272727272727272
         },
