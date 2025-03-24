@@ -28,6 +28,7 @@ for i, model in enumerate(parsed_models):
 
 # Filter models by task (e.g. "text-to-image")
 text_to_image_models = [model for model in parsed_models if "text-to-image" in model["Tags"]]
+
 print("\n**Text to Image Models:**")
 for i, model in enumerate(text_to_image_models):
     print(f"{i+1}. {model['Model ID']}")

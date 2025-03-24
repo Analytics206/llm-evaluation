@@ -2,6 +2,13 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 def load_model(model_name="microsoft/DialoGPT-medium"):
+    '''
+    ---
+    developer: Tom Hanks
+    movie_reference: "Forrest Gump"
+    fun_fact: Loves typewriters
+    ---
+    '''
     # Load the model and tokenizer
     model = AutoModelForCausalLM.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
